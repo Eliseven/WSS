@@ -1,0 +1,91 @@
+<!doctype HTML>
+<html>
+  <head>
+    <!--  Meta  -->
+  <link rel="stylesheet" href="styles/index.processed.css">
+  <meta charset="UTF-8" />  <meta name="viewport" content="width=device-width, initial-scale=1"> <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> <style> .navbar-item:active, .navbar-item:hover{ color: #fff; background-color: #ca8490; } </style> <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> 
+    <title>Join WSS</title>
+  </head>
+  <body>
+    <center>
+      <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="MyStory.html">My Story</a></li>
+       <li><a href="JoinForm.html">Join WSS</a></li>
+    </ul>
+  </nav>
+      </center>
+    
+    <center>
+      <h4 id="joinnow"><u><strong>Join the WSS support group!</strong></u></h4>
+         <form id="join">
+    <label for="frame" id="joiner">First Name:</label><br>
+        <input type= "text" id="frame" name="frame" required placeholder="Yehudis"><br><br>
+        <label for="name"id="joiner"> Last Name:</label><br>
+        <input type="text"id="name"name= "name" required placeholder="Smith">
+        <br><br>
+        <label for="Age" id="joiner">Age:</label>
+  <select id= "age" name="age[]"  >
+    <option>  </option>
+    <option>below 13</option>
+                        <option>13</option>
+ <option>14</option>
+                        <option>15</option>
+                        <option>16</option>
+    
+    <option> 17</option>
+                        <option>18</option>
+    <option>19</option>
+    <option>above 19</option>
+                    </select>
+<br><br>
+           <input type=radio  name=morf >
+           <label id="male">Male</label>
+           
+            <input type=radio  name=morf >
+           <label  id="female">Female</label>
+           <br><br>
+        
+        <label for="email" id="joiner">Email (Gmail preferred):</label><br>
+        <input type= "email"name="email" pattern =".*@*.*" required placeholder=awesomehudy123@gmail.com>
+           <br>
+    <input type="checkbox" checked="checked" name="google_hangouts" id= "google_hangouts">
+           <label>I want to join a Google Hangouts group (Gmail required)</label>
+    
+        <br><br>
+             <label for= "phone" id="joiner"> Phone Number (optional for a possible GroupMe group if demand is high): </label><br>
+        <input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7890">
+           <br><br>
+            
+           
+           <label for="message"><u>About your sibling:</u></label><br>
+            <input type="checkbox"  name="lives_away" id= "lives_away">
+           <label>My sibling lives away from home</label>
+           <br>
+            <input type="checkbox" name="involved" id= "involved">
+           <label>My sibling is considered medically involved</label>
+    <br>
+           <input type=checkbox name=diagnosis id=diagnosis>
+           <label>My sibling has a diagnosis in addition to Williams syndrome</label><br>
+            <textarea rows= "3" cols="30" name= "message" placeholder="Additional diagnosis..."></textarea>
+           <br><br>
+    
+           <label for="message"><u>About YOU!</u></label><br>
+           <input type=radio name=position id=older>
+           <label>I am older than my Special Sibling</label><br>
+           <input type=radio name=position id=younger>
+           <label>I am younger than my Special Sibling</label><br>
+           
+             <label for="frame" id="joiner">Location:</label><br>
+        <input type= "text" id="location" name="location"  placeholder="City, Country..."><br><br>
+  <label for="message">Specific issues or areas of interest:</label><br>
+        <textarea rows= "3" cols="30" name= "message" placeholder="Specific issues or areas of interest..."></textarea>
+        <br><br>
+           
+        <button type="submit" class="btn btn-default"name ="submit_button" 
+                value= "send" id="subbut">send</button>
+           <br><br>
+           <center>
+  </body>
+</html>
